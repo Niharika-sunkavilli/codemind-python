@@ -18,3 +18,4 @@ for i in range(1,n+1):
         if(not(isprime(i))):
             c+=1
 print(c)
+        
