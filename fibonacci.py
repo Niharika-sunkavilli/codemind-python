@@ -1,0 +1,12 @@
+n=int(input())
+a=0
+b=1
+print(a,b,end=" ")
+c=a+b
+count=3
+while(count<=n):
+    c=a+b
+    print(c,end=" ")
+    a=b
+    b=c
+    count+=1
