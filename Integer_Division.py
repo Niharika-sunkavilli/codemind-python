@@ -1,2 +1,2 @@
-z=int(input())
-print(z//10)
+o=int(input())
+print(o//10)
