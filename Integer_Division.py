@@ -1,2 +1,2 @@
-o=int(input())
-print(o//10)
+t=int(input())
+print(t//10)
