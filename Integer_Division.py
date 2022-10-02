@@ -1,2 +1,2 @@
-n=int(input())
-print(n//10)
+z=int(input())
+print(z//10)
