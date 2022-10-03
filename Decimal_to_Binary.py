@@ -10,4 +10,3 @@ for i in range(t):
     for i in b:
         print(i,end="")
     print()
-        
