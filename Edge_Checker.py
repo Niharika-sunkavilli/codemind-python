@@ -1,16 +1,8 @@
 a,b=map(int,input().split())
-
 if(a==10 and b==1) or (a==1 and b==10):
     print("Yes")
-elif(a>b):
-    if(b+1 ==a):
-        print("Yes")
-    else:
-        print("No")
-elif(a<b):
-    if(a+1==b):
-        print("Yes")
-    else:
-        print("No")
+elif(abs(a-b)==1):
+    print("Yes")
 else:
-    print("NO")
+    print("No")
+
