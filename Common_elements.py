@@ -1,21 +1,15 @@
-x,y=map(int,input().split())
-a=[]
-m=list(map(int,input().split()))
-n=list(map(int,input().split()))
-#print(m)
-#print(n)
-for i in range(len(m)):
-    for j in range(len(n)):
-        if(m[i]==n[j]):
-            a.append(m[i])
-
-#print(a)
+m,n=map(int,input().split())
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
 z=[]
 for i in range(len(a)):
-    if a[i] not in z:
-        z.append(a[i])
-        
-        
-for i in z:
+    for j in range(len(b)):
+        if(a[i]==b[j]):
+            z.append(a[i])
+x=[]
+for i in range(len(z)):
+    if z[i] not in x:
+        x.append(z[i])
+for i in x:
     print(i,end=" ")
-#print(z)
+
