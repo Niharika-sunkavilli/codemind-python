@@ -1,0 +1,16 @@
+n=int(input())
+a=z=c=0
+m=n
+while(n>0):
+    rem=n%10
+    a=a*10+rem
+    n=n//10
+while(a>0):
+    rem=a%10
+    c+=1
+    z=z+pow(rem,c)
+    a=a//10
+if(z==m):
+    print("True")
+else:
+    print("False")
